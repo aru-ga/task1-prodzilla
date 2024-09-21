@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+#hero {
+  padding: 40px 0 0;
+  position: relative;
+  background: #222;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-head {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 2em;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero-button {
+  text-decoration: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: .8em;
+  background: #6b6b6b;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero-desc p:first-child {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.hero-desc p:last-child {
+  color: #8e8e8e;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.hero-slide {
+  margin: 0 auto;
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /* opacity: 0; */
+  /* -webkit-transition: opacity 0.6s ease-in-out 0s;
+	-moz-transition: opacity 0.6s ease-in-out 0s;
+	-o-transition: opacity 0.6s ease-in-out 0s;
+	transition: opacity 0.6s ease-in-out 0s; */
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.feat-title h2 {
+  font-size: 48px;
+  margin: 90px auto 0 auto;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  max-width: 910px;
+  color: #333;
+}
+
+.feat-title p:first-of-type {
+  font-size: 1.5em;
+  margin: 50px auto 0 auto;
+  color: #333;
+}
+
+.feat-title p:last-of-type {
+  font-size: 1.5em;
+  line-height: 30px;
+  text-align: center;
+  max-width: 910px;
+  color: #333;
+}
+
+.feat-button{
+    margin: 50px auto 0 auto;
+}
+
+.feat-button a:first-child{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    background: #6b6b6b;
+}
+
+.feat-button a:last-child{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #6b6b6b;
+    font-size: 1em;
+    background: #fff;
+}
